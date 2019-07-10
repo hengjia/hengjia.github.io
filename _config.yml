@@ -1,12 +1,12 @@
-title:              Blog
-tagline:            on GitHub Pages
-description:        Content-focused template for a blog hosted on GitHub Pages.
-url:                http://YourName.github.io
+title:              Hengjia Zhang
+tagline:            at the University of Michigan
+description:        Master Student major in Computer Science and Engineering at the University of Michigan
+url:                http://hengjia.github.io
 
 author:
-  name:             Your Name
-  url:              https://twitter.com/YourName
-  email:            YourName@gmail.com
+  name:             Hengjia Zhang
+  url:              https://github.com/hengjia
+  email:            hengjia@umich.edu
 
 # GitHub Pages / Jekyll configuration
 baseurl:            ''
