@@ -1,31 +1,39 @@
-<!DOCTYPE html>
-  <html>
-  <head>
- 		<title>Hengjia Zhang</title>
- 	</head>
- 	<body>
- 		<nav>
-     		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-         		<li><a href="/cv">CV</a></li>
-     		</ul>
- 		</nav>
- 		<div class="container">
-     		<div class="blurb">
-         		<h1>Here's Hengjia Zhang. Github website is not yet constructed.</h1>
-			<h1>You can visit my personal website <a href='https://www.blythez.com'> here </a> </h1>
- 				<p>
-                      Initialization for Hengjia's website.
-                     <a href="/about">Read more about my life...</a>
-                 </p>
-     		</div><!-- /.blurb -->
- 		</div><!-- /.container -->
- 		<footer>
-   		<ul>
-         		<li><a href="mailto:hengjia@umich.edu">email</a></li>
-         		<li><a href="https://github.com/hengjia">Github</a></li>
- 			</ul>
- 		</footer>
-	</body>
- </html>
+---
+layout: default
+title: Home
+---
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+    {{ post.content | strip_html | truncatewords: 50 }}
+
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
+
