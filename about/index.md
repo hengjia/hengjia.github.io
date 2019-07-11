@@ -7,7 +7,7 @@ My Name is Hengjia Zhang (张恒嘉). Currently I'm a master student majoring in
 
 My main interest is machine learning and deep learning. I was a member of [Michigan Database Research Group](<http://dbgroup.eecs.umich.edu/index.html>) and of [GEMS LAB](<http://web.eecs.umich.edu/~dkoutra/group/index.html>). 
 
-Last semester, when I was taking deep learning course by [Honglak Lee](<https://web.eecs.umich.edu/~honglak/>), our final project is the convertion/translation between real person images and anime images based on CycleGAN. The main modifcation is that we changed the architecture of generator and discriminator: for discriminator, we add dialtion convolutional layers to better extract global image features and add skip connections on generator so that it can preserve more image details.
+Last semester, when I was taking deep learning course by [Honglak Lee](<https://web.eecs.umich.edu/~honglak/>), our final project was the convertion/translation between real person images and anime images based on CycleGAN. The main modifcation was that we changed the architecture of generator and discriminator: for discriminator, we added dialtion convolutional layers to better extract global image features and add skip connections on generator so that it could preserve more image details.
 
 ![Example of ARTGAN](../images/ARTGAN/ARTGAN_example.jpg)
 
