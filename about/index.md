@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Me
 ---
 
 My Name is Hengjia Zhang (张恒嘉). Currently I'm a master student major in Computer Science and Engineering at the Univeristy of Michigan and planning to graduate in May, 2020. I got dual degrees in Computer Science at the University of Michigan and in Electrical and Computer Engineering at Shanghai Jiao Tong University. 
@@ -12,8 +12,6 @@ Last year, when I was taking deep learning course by [Honglak Lee](<https://web.
 ![Example of ARTGAN](../images/ARTGAN/ARTGAN_example.jpg)
 
 When I was an undergraduate, one of my research projects is a JAVA code autocompletion based on machine learning algorithms and visualization through editor ATOM.  Its final goal is trying to develop a system which can write the code itself! 
-
-![Demo of tarocchi](../images/tarocchi/demo.gif)
 
 Also, my team and I developed a gesture recognition system under complicated background with an accuracy of 100% and response time of 60 milliseconds per frame for [Panasonic](<https://na.panasonic.com/us/>). We use the gesture as game input to prove that it's robust and fast.
 
