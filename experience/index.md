@@ -50,6 +50,7 @@ In this project, I aimed  to use algorithm to refine and eventually achieve auto
 #### Sep 2017 - Jan 2018, GEMS Lab, Ann Arbor, MI
 
 For this project, I leveraged Local Sensitive Hashing to scale up representation learning in an attempt to better solve network alignment problems. On top of that, I also implemented and analyzed empirical variants of network alignment algorithms.
+
 ---
 ## IMDb Python Package
 #### Jan 2018 - Apr 2018, Ann Arbor, MI
