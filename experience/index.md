@@ -39,6 +39,7 @@ TODO: finish this part
 #### Sep 2018 - Dec 2018, Ann Arbor, MI
 
 This project is to develop a Smart Fiction Search Engine which searches books based on plot and context. About 5000 books for their descriptions and relative reviews were crawled, about 30 reviews for each book and build an Inverse Index database for it. Based on that, I implemented Okapi BM25 for books and used it as the ranking function for fictions retrieved. In order to test the performance of the search engine, we created 400 queries ourselves and compared the performance between our own book search engine and Google Books Search Engine. The result shows that our top 10 accuracy was 72.5% while Google's accuracy was 48.3%.
+
 ![boogle](../images/boogle/boogle.png)
 *User Interface of Boogle*
 
