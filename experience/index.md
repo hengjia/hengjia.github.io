@@ -13,14 +13,14 @@ Here I'm working on KerasImporter for MATLAB.
 
 *A*nime-to-*R*eal-*T*ransformation*GAN* is about translation between a real person and an anime character based on CycleGAN. The final result was impressive. We manually collected and cleaned about 15000 data includes both real person images and anime character images for training and the data was trained on my NVIDIA1070 for almost one week. Since we couldn't map every detail from real person to anime character or anime character to real person, the original design of CycleGAN may not perform very well in this case. Therefore, in order to let the discriminator learn global features about the images better, I added some dilated convolution layer to the discriminator so that it could classify the images more broadly. In addition, to preserve the images details, skip connections was also added on the generator.
 ![ARTGAN architecture](../images/ARTGAN/architecture.png)
-<center>*The Architecture of ARTGAN*</center>
+<center><figcaption>*The Architecture of ARTGAN</figcaption></center>
 
 The final result of ARTGAN:
 ![character to person](../images/ARTGAN/character_to_person.png)
-<center>*Anime to Person Transformation*</center>
+<center><figcaption>Anime to Person Transformation</figcaption></center>
 
 ![character to person](../images/ARTGAN/person_to_character.png)
-<center>*Person to Character Transformation*</center>
+<center><figcaption>Person to Character Transformation</figcaption></center>
 
 ---
 ## Can Community Detection Help Link Prediction: An Empirical Study
@@ -40,7 +40,7 @@ TODO: finish this part
 
 This project is to develop a Smart Fiction Search Engine which searches books based on plot and context. About 5000 books for their descriptions and relative reviews were crawled, about 30 reviews for each book and build an Inverse Index database for it. Based on that, I implemented Okapi BM25 for books and used it as the ranking function for fictions retrieved. In order to test the performance of the search engine, we created 400 queries ourselves and compared the performance between our own book search engine and Google Books Search Engine. The result shows that our top 10 accuracy was 72.5% while Google's accuracy was 48.3%.
 ![boogle](../images/boogle/boogle.png)
-<center>*User Interface of Boogle*</center>
+<center><figcaption>User Interface of Boogle</figcaption></center>
 
 ---
 ## Gesture Recognition System under Complicated Background
