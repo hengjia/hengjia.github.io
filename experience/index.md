@@ -13,7 +13,7 @@ Here I'm working on KerasImporter for MATLAB.
 
 *A*nime-to-*R*eal-*T*ransformation*GAN* is about translation between a real person and an anime character based on CycleGAN. The final result was impressive. We manually collected and cleaned about 15000 data includes both real person images and anime character images for training and the data was trained on my NVIDIA1070 for almost one week. Since we couldn't map every detail from real person to anime character or anime character to real person, the original design of CycleGAN may not perform very well in this case. Therefore, in order to let the discriminator learn global features about the images better, I added some dilated convolution layer to the discriminator so that it could classify the images more broadly. In addition, to preserve the images details, skip connections was also added on the generator.
 ![ARTGAN architecture](../images/ARTGAN/architecture.png)
-<center><figcaption>*The Architecture of ARTGAN</figcaption></center>
+<center><figcaption>The Architecture of ARTGAN</figcaption></center>
 
 The final result of ARTGAN:
 ![character to person](../images/ARTGAN/character_to_person.png)
