@@ -2,7 +2,7 @@
 layout: page
 title: My Experience
 ---
-## Deep Learning Intern at The Mathworks
+## Deep Learning Intern at [The Mathworks](<http://www.mathworks.com>)
 #### May 2019 - Aug 2019, Natick, MA
 
 Here I'm working on KerasImporter for MATLAB.
@@ -26,13 +26,13 @@ Here I'm working on KerasImporter for MATLAB.
 ## Can Community Detection Help Link Prediction: An Empirical Study
 #### Jan 2019 - Apr 2019, Ann Arbor, MI
 
-TODO: finish this part
+This project is to find out whether community detection methods will help link prediction as the graph is growing larger and lager. Link Prediction has wide applications from friend recommendation in Facebook to connection recommendation in LinkedIn. The early proposed approach is based on network statistics such as common neighbours, Jaccard and Adar. As the graph becomes larger and larger, it can become unrealistic to process the whole graph when we try to predict potential links within the graph using these ap- proaches. One solution is to detect multiple communities in a graph, and predict links within each relatively small communities. How- ever, does community detection really capture the essence of the relationships and help downstream tasks such as link prediction? We design an empirical study framework and our proposed method is to use five different community detection methods to partition the graph into multiple communities and use each community as a subgraph to run classic link prediction methods. Through our experiments, we observe that BIGCLAM and METIS perform the best and LEMON performs the worst in terms of link prediction ac- curacy. Some community detection methods can help downstream tasks such as link prediction to achieve better accuracy in terms of denoising but not all methods are equally good.
 
 ---
 ## Graduate Student Instructor for EECS 486 Information Retrieval
 #### Jan 2019 - Apr 2019, Ann Arbor, MI
 
-TODO: finish this part
+I was one of Graduate Student Instructor for EECS 486 Information Retrieval in Winter 2018. Here I led discussions, held office hours, gave exam papers and graded them. I taught students from text classification methods like Naive Bayes and Neural Networks, to some theories like fuzzy set, and technical web crawler techniques like BeautifulSoup.
 
 ---
 ## Smart Fiction Search Engine (Boogle)
@@ -47,7 +47,10 @@ This project is to develop a Smart Fiction Search Engine which searches books ba
 ## Gesture Recognition System under Complicated Background
 #### May 2018 - Aug 2018, Shanghai, China
 
-TODO: finish this part
+This project is to develop a gesture recognition system by using a USB camera by using OpenCV and Keras. We applied three different masks from OpenCV to achieve hand segmentation from complicated background and a 16-layer Convolutional Neural Network to classify segmented hands.The system classify hands in real time with accuracy of 100% and response time of 60 mini-seconds per frame. Finally we use the recognition result as game inputs to show it's quickness, accuracy and robust.
+
+![Demo of Gesture Recognition System](../images/gesture_recognition/demo.jpg)
+*Demo of Gesture Recognition System*
 
 ---
 ## Data-driven Programming System on Java Code Prediction
