@@ -5,7 +5,7 @@ When I got my first payroll from my intern, I bought a LEGO Bugatti Chiron for m
 ![get started](../images/lego_bugatti/getting_started.jpg)
 *Let's do it!*
 
-One of the most charming part for LEGO techinic sets is that it preserves the original design for all the things. For this set, it keeps the internal design for the veichle, including the engine, the gearbox and the case.
+One of the most charming parts for LEGO techinic sets is that it preserves the original design for all the things. For this set, it keeps the internal design for the veichle, including the engine, the gearbox and the case.
 
 It's the picture of the engine:
 ![engine](../images/lego_bugatti/engine.jpg)
