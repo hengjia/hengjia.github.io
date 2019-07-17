@@ -1,8 +1,6 @@
 When I got my first payroll from my intern, I bought a LEGO Bugatti Chiron for myself! This set is always my favourite set but it's also always too expensive for me... 
 
 ![case](../images/lego_bugatti/case.jpg)
-
-![get started](../images/lego_bugatti/getting_started.jpg)
 *Let's do it!*
 
 One of the most charming parts for LEGO techinic sets is that it preserves the original design for all the things. For this set, it keeps the internal design for the veichle, including the engine, the gearbox and the case.
