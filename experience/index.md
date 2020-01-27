@@ -5,7 +5,12 @@ title: My Experience
 ## Deep Learning Intern at [The Mathworks](<http://www.mathworks.com>)
 #### May 2019 - Aug 2019, Natick, MA
 
-Here I'm working on KerasImporter for MATLAB.
+Here I was working on the interoperation between MATLAB and other deep learning frameworks, mainly about the interoperation between MATLAB and Keras:
+* Implemented the translation from CuDNNLSTM on Keras to MATLAB Deep Learning Toolbox LSTM Layer.
+* Refactored the architecture design of Keras Model Transformer in MATLAB to be more organized, maintainable and scalable.
+* Implemented the nested Sequential Keras Model Transformation to MATLAB to achieve full Keras Support.
+* Implemented the translation of TimeDistributed Wrapper in Keras where DNN can be applied to the temporal dimension for video inputs.
+* Wrote RFA files, created unit tests and regression tests.
 
 ---
 ## Translation between Real Person and Anime Character by using CycleGAN
